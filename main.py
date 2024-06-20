@@ -53,7 +53,7 @@ host="192.168.100.175"
 port=3306
 database="recipes"
 user="italogvss"
-password="narutoeb0m"
+password=""
 connection = mysql.connector.connect(database=database, host=host, port=port, user=user, password=password) 
 cur = connection.cursor()
 cur.execute("SELECT * FROM link LIMIT 30 ")
